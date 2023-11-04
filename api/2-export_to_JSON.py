@@ -2,9 +2,9 @@
 """
 Using a REST API and an EMP_ID, save info about their TODO list in a json file
 """
+import json
 import requests
 import sys
-import json
 
 if __name__ == "__main__":
     """ Main section """
