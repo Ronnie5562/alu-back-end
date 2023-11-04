@@ -2,7 +2,6 @@
 """
 Using a REST API, and a given emp_ID, return info about their TODO list.
 """
-import json
 import requests
 import sys
 
