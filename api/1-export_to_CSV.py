@@ -12,7 +12,7 @@ if __name__ == "__main__":
     BASE_URL = 'https://jsonplaceholder.typicode.com'
     employee = requests.get(
         BASE_URL + f'/users/{EMP_ID}/').json()
-    EMPLOYEE_NAME = employee.get("name")
+    EMPLOYEE_NAME = employee.get("username")
     employee_todos = requests.get(
         BASE_URL + f'/users/{EMP_ID}/todos').json()
     serialized_todos = {}
